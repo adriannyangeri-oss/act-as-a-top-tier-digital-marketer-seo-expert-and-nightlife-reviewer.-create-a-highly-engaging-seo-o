@@ -728,6 +728,17 @@ export default function Home() {
                 </div>
               ))}
 
+              {/* Google Maps Button */}
+              <a
+                href="https://www.google.com/maps/place/Jowac+Sports+Club/@-1.193646,36.7436921,17z/data=!4m16!1m9!3m8!1s0x182f22fade3d9653:0xd5b89ab3d718dd4a!2sJowac+Sports+Club!8m2!3d-1.193646!4d36.7484557!9m1!1b1!16s%2Fg%2F11cny1nb0t!3m5!1s0x182f22fade3d9653:0xd5b89ab3d718dd4a!8m2!3d-1.193646!4d36.7484557!16s%2Fg%2F11cny1nb0t?entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-3 bg-[#c9a84c] hover:bg-[#f0d080] text-black font-bold px-6 py-4 rounded-2xl text-base transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-[#c9a84c]/30"
+              >
+                <span className="text-xl">📍</span>
+                Open in Google Maps
+              </a>
+
               {/* Social Links */}
               <div className="glass-card rounded-2xl p-6">
                 <div className="text-[#c9a84c] text-xs font-semibold uppercase tracking-widest mb-4">

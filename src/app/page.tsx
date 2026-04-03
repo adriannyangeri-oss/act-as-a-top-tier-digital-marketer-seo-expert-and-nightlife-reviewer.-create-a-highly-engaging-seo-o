@@ -703,7 +703,7 @@ export default function Home() {
                 {
                   icon: "📞",
                   title: "Reservations & Inquiries",
-                  content: "+254 700 000 000",
+                  content: "+254 712 488 475",
                   sub: "Call or WhatsApp to book your table or event",
                 },
                 {

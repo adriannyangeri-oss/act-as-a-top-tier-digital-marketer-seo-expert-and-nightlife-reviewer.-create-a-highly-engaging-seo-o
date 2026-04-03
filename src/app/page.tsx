@@ -746,7 +746,7 @@ export default function Home() {
                 </div>
                 <div className="flex gap-4">
                   {[
-                    { label: "Instagram", handle: "@JowacSportsClub", icon: "📸", href: "https://www.instagram.com/JowacSportsClub" },
+                    { label: "Instagram", handle: "@JowacSportsClub", icon: "📸", href: "https://www.instagram.com/jowacsportsclub/" },
                     { label: "Facebook", handle: "Jowac Sports Club", icon: "👍", href: "#" },
                     { label: "WhatsApp", handle: "+254 700 000 000", icon: "💬", href: "https://wa.me/254700000000" },
                   ].map((social) => (

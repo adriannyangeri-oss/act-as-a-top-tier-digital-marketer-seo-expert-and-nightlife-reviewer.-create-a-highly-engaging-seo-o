@@ -746,19 +746,22 @@ export default function Home() {
                 </div>
                 <div className="flex gap-4">
                   {[
-                    { label: "Instagram", handle: "@JowacSportsClub", icon: "📸" },
-                    { label: "Facebook", handle: "Jowac Sports Club", icon: "👍" },
-                    { label: "WhatsApp", handle: "+254 700 000 000", icon: "💬" },
+                    { label: "Instagram", handle: "@JowacSportsClub", icon: "📸", href: "https://www.instagram.com/JowacSportsClub" },
+                    { label: "Facebook", handle: "Jowac Sports Club", icon: "👍", href: "#" },
+                    { label: "WhatsApp", handle: "+254 700 000 000", icon: "💬", href: "https://wa.me/254700000000" },
                   ].map((social) => (
-                    <div
+                    <a
                       key={social.label}
+                      href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex-1 border border-white/10 hover:border-[#c9a84c]/40 rounded-xl p-3 text-center transition-all duration-300 cursor-pointer group"
                     >
                       <div className="text-2xl mb-1">{social.icon}</div>
                       <div className="text-white text-xs font-semibold group-hover:text-[#c9a84c] transition-colors">
                         {social.label}
                       </div>
-                    </div>
+                    </a>
                   ))}
                 </div>
               </div>
